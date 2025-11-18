@@ -1,3 +1,0 @@
-# Outreach
-
-Placeholder - for now! :)
