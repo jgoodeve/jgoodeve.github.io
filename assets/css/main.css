@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 10%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -143,8 +143,8 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 500;
-		font-size: 1rem;
-		line-height: 1.65;
+		font-size: 2rem;
+		line-height: 2;
 	}
 
 	a {
@@ -171,8 +171,9 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
-		font-size: 1.0rem;
+		margin: 0 0 1rem 0;
+		font-size: 1.1rem;
+		font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1278,7 +1279,7 @@ input, select, textarea {
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
+				width: 0px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
@@ -1330,10 +1331,10 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1.2rem;
 				line-height: 2;
+				font-weight: 300;
 			}
 
 		#header nav ul {
@@ -1365,7 +1366,8 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1rem;
+					font-weight: 600;
 					border-bottom: 0;
 				}
 
@@ -1660,6 +1662,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
 
 
